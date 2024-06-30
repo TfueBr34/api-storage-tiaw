@@ -1,80 +1,134 @@
 {
-  "clientes": [
+  "topicos": [
     {
-      "id": 1,
-      "nome": "João da Silva",
-      "telefone": "123456789",
-      "endereco": "Rua dos Animais, 123"
+      "id": "1",
+      "user": 1,
+      "texto": "Fiz a minha primeira doação de Sangue no hemominas!",
+      "num_curtida": 23,
+      "comentarios": [
+        {
+          "id": "1",
+          "user": 2,
+          "texto": "Meus Parabéns",
+          "num_curtida": 8
+        },
+        {
+          "id": "2",
+          "user": 2,
+          "texto": "Continue assim",
+          "num_curtida": 9
+        }
+      ]
     },
     {
-      "id": 2,
-      "nome": "Maria Souza",
-      "telefone": "987654321",
-      "endereco": "Avenida dos Pets, 456"
+      "id": "2",
+      "user": 2,
+      "texto": "O centro de coleta de doações na minha cidade é muito precário.<br> Mais alguém com esse problema?",
+      "num_curtida": 35,
+      "comentarios": [
+        {
+          "id": "1",
+          "user": 1,
+          "texto": "Na minha cidade é a mesma coisa",
+          "num_curtida": 21
+        }
+      ]
     }
   ],
-  "animais": [
+  "usuarios": [
     {
-      "id": 1,
-      "nome": "Rex",
-      "especie": "Cachorro",
-      "raca": "Labrador",
-      "idade": 3,
-      "cliente_id": 1
+      "id": "1",
+      "username": "João Afonso",
+      "email": "email1@gmail.com",
+      "senha": "senhasenha.1!",
+      "bairro": "eldorado",
+      "cidade": "contagem",
+      "dt_nasc": "2000-05-10",
+      "telefone": "31975352142",
+      "sexo": "1",
+      "url_pic": "foto_perfil.png"
     },
     {
-      "id": 2,
-      "nome": "Mimi",
-      "especie": "Gato",
-      "raca": "Siamês",
-      "idade": 2,
-      "cliente_id": 1
+      "id": "2",
+      "username": "Pedro Costa",
+      "email": "email2@gmail.com",
+      "senha": "Tteste,.1!",
+      "bairro": "savassi",
+      "cidade": "belo horizonte",
+      "dt_nasc": "1993-12-03",
+      "telefone": "31915450112",
+      "sexo": "1",
+      "url_pic": "foto_perfil.png"
     },
     {
-      "id": 3,
-      "nome": "Lola",
-      "especie": "Cachorro",
-      "raca": "Poodle",
-      "idade": 5,
-      "cliente_id": 2
-    },
-    {
-      "id": 4,
-      "nome": "Nina",
-      "especie": "Gato",
-      "raca": "Persa",
-      "idade": 1,
-      "cliente_id": 2
+      "id": "3",
+      "username": "Samuel Vital Santos Silva",
+      "email": "samvit190@gmail.com",
+      "senha": "1aBoasenha!",
+      "bairro": "cabral",
+      "cidade": "contagem",
+      "dt_nasc": "2003-08-19",
+      "telefone": "31983312890",
+      "sexo": "1",
+      "url_pic": ""
     }
   ],
-  "produtos": [
+  "tipos_sangue": [
     {
-      "id": 1,
-      "nome": "Ração para cães",
-      "marca": "Premier",
-      "preco": 50.99,
-      "quantidade_estoque": 100
+      "id": "1",
+      "nome_tipo": "O+",
+      "id_categoria_qt": 1,
+      "data_att": "30/05/2024",
+      "dsc_categoria": "Agende a doação o quanto antes"
     },
     {
-      "id": 2,
-      "nome": "Areia sanitária para gatos",
-      "marca": "Chalesco",
-      "preco": 25.99,
-      "quantidade_estoque": 50
-    }
-  ],
-  "servicos": [
-    {
-      "id": 1,
-      "nome": "Banho e tosa",
-      "preco": 80.0,
-      "duracao_minutos": 120
+      "id": "2",
+      "nome_tipo": "O-",
+      "id_categoria_qt": 2,
+      "data_att": "30/05/2024",
+      "dsc_categoria": "Agende a doação nesta semana"
     },
     {
-      "id": 2,
-      "nome": "Consulta veterinária",
-      "preco": 120.0,
-      "duracao_minutos": 60
+      "id": "3",
+      "nome_tipo": "A+",
+      "id_categoria_qt": 3,
+      "data_att": "30/05/2024",
+      "dsc_categoria": "Agende a doação na próxima semana"
+    },
+    {
+      "id": "4",
+      "nome_tipo": "A-",
+      "id_categoria_qt": 4,
+      "data_att": "30/05/2024",
+      "dsc_categoria": "Aguarde 10 dias para agendar a doação"
+    },
+    {
+      "id": "5",
+      "nome_tipo": "B+",
+      "id_categoria_qt": 1,
+      "data_att": "30/05/2024",
+      "dsc_categoria": "Agende a doação o quanto antes"
+    },
+    {
+      "id": "6",
+      "nome_tipo": "B-",
+      "id_categoria_qt": 1,
+      "data_att": "30/05/2024",
+      "dsc_categoria": "Agende a doação o quanto antes"
+    },
+    {
+      "id": "7",
+      "nome_tipo": "AB+",
+      "id_categoria_qt": 1,
+      "data_att": "30/05/2024",
+      "dsc_categoria": "Agende a doação o quanto antes"
+    },
+    {
+      "id": "8",
+      "nome_tipo": "AB-",
+      "id_categoria_qt": 1,
+      "data_att": "30/05/2024",
+      "dsc_categoria": "Agende a doação o quanto antes"
     }
   ]
 }
